@@ -126,7 +126,7 @@ public class NewsActivity extends AppCompatActivity implements com.tokopedia.tes
         //check sp
         List<NewArticle> data = ds.getDataNews();
         if(data.size() > 0){
-            Toast.makeText(this, "Couldn't update your feed, check your connection", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Couldn't update your feed, check your connection", Toast.LENGTH_SHORT).show();
             newsData = data;
             checkData();
         } else showSnackbar(t.getMessage());
@@ -153,7 +153,7 @@ public class NewsActivity extends AppCompatActivity implements com.tokopedia.tes
         //check sp
         List<Banner> data = ds.getDataBanner();
         if(data.size() > 0){
-            Toast.makeText(this, "Couldn't update your feed, check your connection", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Couldn't update your feed, check your connection", Toast.LENGTH_SHORT).show();
             bannerData = data;
             checkData();
         } else showSnackbar(t.getMessage());
